@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true, // يسمح بتقسيم الترجمة للمشاريع متعددة الأجزاء
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo", // مسار ملف معلومات البناء المؤقت
+    "skipLibCheck": true, // يتخطى التحقق من صحة الملفات التعريفية للمكتبات
+    "module": "ESNext", // استخدام صيغة ESNext للوحدات
+    "moduleResolution": "bundler", // حل الوحدات بناءً على طريقة المجمّع
+    "allowSyntheticDefaultImports": true, // السماح بالاستيراد الافتراضي المزيف
+    "strict": true // تفعيل الوضع الصارم
+  },
+  "include": ["vite.config.ts"] // تضمين الملف المحدد للترجمة
+}
